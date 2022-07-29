@@ -1,13 +1,15 @@
 package main
 
+import "time"
+
 type Trains []Train
 
 type Train struct {
-	TrainID            int       
-	DepartureStationID int       
-	ArrivalStationID   int       
-	Price              float32   
-	ArrivalTime        time.Time 
+	TrainID            int
+	DepartureStationID int
+	ArrivalStationID   int
+	Price              float32
+	ArrivalTime        time.Time
 	DepartureTime      time.Time
 }
 
