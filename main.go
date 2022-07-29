@@ -7,7 +7,7 @@ func main() {
 	//	... друк result
 }
 
-func FindTrains(depStation, arrStation, criteria string) (Trains, error) {
+func FindTrains(departureStation, arrivalStation, criteria string) (Trains, error) {
 	// ... код
 	return nil, nil // маєте повернути правильні значення
 }
