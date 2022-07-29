@@ -1,5 +1,16 @@
 package main
 
+type Trains []Train
+
+type Train struct {
+	TrainID            int       
+	DepartureStationID int       
+	ArrivalStationID   int       
+	Price              float32   
+	ArrivalTime        time.Time 
+	DepartureTime      time.Time
+}
+
 func main() {
 	//	... запит даних від користувача
 	//result, err := FindTrains(departureStation, arrivalStation, criteria))
