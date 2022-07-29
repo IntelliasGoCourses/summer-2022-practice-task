@@ -13,6 +13,7 @@
 Якщо таких потягів немає - треба повернути nil.
 
 **Приклад**
+Це просто абстрактний приклад для вашого розуміння. Вхідні та вихідні параметри описані окремо. 
 
 Вхідіні дані:
 
@@ -22,9 +23,9 @@
 
 Результат:
 
-    {TrainID: 1179, DepartureStationID: 1929, ArrivalStationID: 1902, Price: 164.67, ArrivalTime: time.Date(0, time.January, 1, 13, 12, 0, 0, time.UTC), DepartureTime: time.Date(0, time.January, 1, 19, 55, 0, 0, time.UTC)},
-    {TrainID: 1180, DepartureStationID: 1929, ArrivalStationID: 1902, Price: 164.67, ArrivalTime: time.Date(0, time.January, 1, 13, 12, 0, 0, time.UTC), DepartureTime: time.Date(0, time.January, 1, 19, 55, 0, 0, time.UTC)},
-    {TrainID: 1143, DepartureStationID: 1929, ArrivalStationID: 1902, Price: 176.78, ArrivalTime: time.Date(0, time.January, 1, 13, 38, 0, 0, time.UTC), DepartureTime: time.Date(0, time.January, 1, 19, 47, 0, 0, time.UTC)},
+ 	{TrainID: 1177, DepartureStationID: 1902, ArrivalStationID: 1929, Price: 164.65, ArrivalTime: time.Date(0, time.January, 1, 10, 25, 0, 0, time.UTC), DepartureTime: time.Date(0, time.January, 1, 16, 36, 0, 0, time.UTC)},
+	{TrainID: 1178, DepartureStationID: 1902, ArrivalStationID: 1929, Price: 164.65, ArrivalTime: time.Date(0, time.January, 1, 10, 25, 0, 0, time.UTC), DepartureTime: time.Date(0, time.January, 1, 16, 36, 0, 0, time.UTC)},
+	{TrainID: 1141, DepartureStationID: 1902, ArrivalStationID: 1929, Price: 176.77, ArrivalTime: time.Date(0, time.January, 1, 12, 15, 0, 0, time.UTC), DepartureTime: time.Date(0, time.January, 1, 16, 48, 0, 0, time.UTC)},
 
 **Скоуп роботи**:
 
