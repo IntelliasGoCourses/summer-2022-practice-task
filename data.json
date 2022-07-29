@@ -1,0 +1,2002 @@
+[
+  {
+    "trainId": 907,
+    "departureStationId": 1909,
+    "arrivalStationId": 1929,
+    "price": 1790.87,
+    "arrivalTime": "00:50:00",
+    "departureTime": "20:00:00"
+  },
+  {
+    "trainId": 908,
+    "departureStationId": 1909,
+    "arrivalStationId": 1929,
+    "price": 1790.87,
+    "arrivalTime": "00:50:00",
+    "departureTime": "20:00:00"
+  },
+  {
+    "trainId": 909,
+    "departureStationId": 1929,
+    "arrivalStationId": 1909,
+    "price": 1790.87,
+    "arrivalTime": "10:01:00",
+    "departureTime": "01:00:00"
+  },
+  {
+    "trainId": 909,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 199.15,
+    "arrivalTime": "11:10:00",
+    "departureTime": "01:00:00"
+  },
+  {
+    "trainId": 910,
+    "departureStationId": 1929,
+    "arrivalStationId": 1909,
+    "price": 1790.87,
+    "arrivalTime": "10:01:00",
+    "departureTime": "01:00:00"
+  },
+  {
+    "trainId": 910,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 199.15,
+    "arrivalTime": "11:10:00",
+    "departureTime": "01:00:00"
+  },
+  {
+    "trainId": 911,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 191.87,
+    "arrivalTime": "23:00:00",
+    "departureTime": "14:40:00"
+  },
+  {
+    "trainId": 914,
+    "departureStationId": 1937,
+    "arrivalStationId": 1902,
+    "price": 191.89,
+    "arrivalTime": "09:24:00",
+    "departureTime": "00:52:00"
+  },
+  {
+    "trainId": 917,
+    "departureStationId": 1902,
+    "arrivalStationId": 1929,
+    "price": 300.18,
+    "arrivalTime": "09:25:00",
+    "departureTime": "20:01:00"
+  },
+  {
+    "trainId": 918,
+    "departureStationId": 1929,
+    "arrivalStationId": 1902,
+    "price": 300.20,
+    "arrivalTime": "06:55:00",
+    "departureTime": "17:10:00"
+  },
+  {
+    "trainId": 919,
+    "departureStationId": 1902,
+    "arrivalStationId": 1981,
+    "price": 130.60,
+    "arrivalTime": "04:59:00",
+    "departureTime": "20:06:00"
+  },
+  {
+    "trainId": 920,
+    "departureStationId": 1981,
+    "arrivalStationId": 1902,
+    "price": 120.55,
+    "arrivalTime": "10:00:00",
+    "departureTime": "01:05:00"
+  },
+  {
+    "trainId": 921,
+    "departureStationId": 1981,
+    "arrivalStationId": 1902,
+    "price": 120.55,
+    "arrivalTime": "10:00:00",
+    "departureTime": "01:05:00"
+  },
+  {
+    "trainId": 935,
+    "departureStationId": 1981,
+    "arrivalStationId": 1902,
+    "price": 191.48,
+    "arrivalTime": "20:03:00",
+    "departureTime": "10:56:00"
+  },
+  {
+    "trainId": 936,
+    "departureStationId": 1981,
+    "arrivalStationId": 1902,
+    "price": 191.48,
+    "arrivalTime": "20:03:00",
+    "departureTime": "10:56:00"
+  },
+  {
+    "trainId": 957,
+    "departureStationId": 1937,
+    "arrivalStationId": 1902,
+    "price": 131.36,
+    "arrivalTime": "00:55:00",
+    "departureTime": "15:02:00"
+  },
+  {
+    "trainId": 965,
+    "departureStationId": 1902,
+    "arrivalStationId": 1929,
+    "price": 180.27,
+    "arrivalTime": "09:33:00",
+    "departureTime": "17:57:00"
+  },
+  {
+    "trainId": 966,
+    "departureStationId": 1902,
+    "arrivalStationId": 1929,
+    "price": 180.27,
+    "arrivalTime": "09:33:00",
+    "departureTime": "17:57:00"
+  },
+  {
+    "trainId": 967,
+    "departureStationId": 1929,
+    "arrivalStationId": 1902,
+    "price": 180.28,
+    "arrivalTime": "09:10:00",
+    "departureTime": "16:35:00"
+  },
+  {
+    "trainId": 968,
+    "departureStationId": 1929,
+    "arrivalStationId": 1902,
+    "price": 180.28,
+    "arrivalTime": "09:10:00",
+    "departureTime": "16:35:00"
+  },
+  {
+    "trainId": 970,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 309.19,
+    "arrivalTime": "00:24:00",
+    "departureTime": "15:35:00"
+  },
+  {
+    "trainId": 971,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 309.19,
+    "arrivalTime": "00:24:00",
+    "departureTime": "15:35:00"
+  },
+  {
+    "trainId": 978,
+    "departureStationId": 1902,
+    "arrivalStationId": 1929,
+    "price": 258.53,
+    "arrivalTime": "04:15:00",
+    "departureTime": "13:10:00"
+  },
+  {
+    "trainId": 979,
+    "departureStationId": 1929,
+    "arrivalStationId": 1902,
+    "price": 258.55,
+    "arrivalTime": "07:16:00",
+    "departureTime": "14:50:00"
+  },
+  {
+    "trainId": 986,
+    "departureStationId": 1981,
+    "arrivalStationId": 1902,
+    "price": 157.45,
+    "arrivalTime": "08:46:00",
+    "departureTime": "00:50:00"
+  },
+  {
+    "trainId": 987,
+    "departureStationId": 1902,
+    "arrivalStationId": 1981,
+    "price": 156.90,
+    "arrivalTime": "02:52:00",
+    "departureTime": "18:49:00"
+  },
+  {
+    "trainId": 995,
+    "departureStationId": 1902,
+    "arrivalStationId": 1981,
+    "price": 148.73,
+    "arrivalTime": "05:27:00",
+    "departureTime": "20:18:00"
+  },
+  {
+    "trainId": 996,
+    "departureStationId": 1981,
+    "arrivalStationId": 1902,
+    "price": 149.23,
+    "arrivalTime": "09:12:00",
+    "departureTime": "23:27:00"
+  },
+  {
+    "trainId": 1002,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 199.15,
+    "arrivalTime": "05:52:00",
+    "departureTime": "20:25:00"
+  },
+  {
+    "trainId": 1006,
+    "departureStationId": 1921,
+    "arrivalStationId": 1929,
+    "price": 142.13,
+    "arrivalTime": "12:07:00",
+    "departureTime": "02:06:00"
+  },
+  {
+    "trainId": 1013,
+    "departureStationId": 1921,
+    "arrivalStationId": 1937,
+    "price": 140.51,
+    "arrivalTime": "07:59:00",
+    "departureTime": "18:03:00"
+  },
+  {
+    "trainId": 1025,
+    "departureStationId": 1921,
+    "arrivalStationId": 1902,
+    "price": 164.65,
+    "arrivalTime": "07:08:00",
+    "departureTime": "22:20:00"
+  },
+  {
+    "trainId": 1026,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 164.63,
+    "arrivalTime": "06:46:00",
+    "departureTime": "22:23:00"
+  },
+  {
+    "trainId": 1035,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 181.05,
+    "arrivalTime": "22:07:00",
+    "departureTime": "12:15:00"
+  },
+  {
+    "trainId": 1050,
+    "departureStationId": 1981,
+    "arrivalStationId": 1902,
+    "price": 227.88,
+    "arrivalTime": "18:04:00",
+    "departureTime": "08:44:00"
+  },
+  {
+    "trainId": 1066,
+    "departureStationId": 1902,
+    "arrivalStationId": 1981,
+    "price": 152.58,
+    "arrivalTime": "03:47:00",
+    "departureTime": "18:37:00"
+  },
+  {
+    "trainId": 1067,
+    "departureStationId": 1981,
+    "arrivalStationId": 1902,
+    "price": 153.10,
+    "arrivalTime": "07:41:00",
+    "departureTime": "22:00:00"
+  },
+  {
+    "trainId": 1068,
+    "departureStationId": 1921,
+    "arrivalStationId": 1929,
+    "price": 130.36,
+    "arrivalTime": "06:45:00",
+    "departureTime": "21:22:00"
+  },
+  {
+    "trainId": 1088,
+    "departureStationId": 1902,
+    "arrivalStationId": 1981,
+    "price": 197.35,
+    "arrivalTime": "06:26:00",
+    "departureTime": "22:40:00"
+  },
+  {
+    "trainId": 1093,
+    "departureStationId": 1981,
+    "arrivalStationId": 1902,
+    "price": 198.07,
+    "arrivalTime": "06:40:00",
+    "departureTime": "22:53:00"
+  },
+  {
+    "trainId": 1098,
+    "departureStationId": 1937,
+    "arrivalStationId": 1902,
+    "price": 166.55,
+    "arrivalTime": "00:30:00",
+    "departureTime": "14:42:00"
+  },
+  {
+    "trainId": 1099,
+    "departureStationId": 1937,
+    "arrivalStationId": 1902,
+    "price": 166.55,
+    "arrivalTime": "00:30:00",
+    "departureTime": "14:42:00"
+  },
+  {
+    "trainId": 1100,
+    "departureStationId": 1937,
+    "arrivalStationId": 1902,
+    "price": 166.55,
+    "arrivalTime": "00:30:00",
+    "departureTime": "14:42:00"
+  },
+  {
+    "trainId": 1105,
+    "departureStationId": 1902,
+    "arrivalStationId": 1981,
+    "price": 138.54,
+    "arrivalTime": "00:14:00",
+    "departureTime": "15:22:00"
+  },
+  {
+    "trainId": 1106,
+    "departureStationId": 1981,
+    "arrivalStationId": 1902,
+    "price": 151.56,
+    "arrivalTime": "07:21:00",
+    "departureTime": "23:16:00"
+  },
+  {
+    "trainId": 1108,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 166.55,
+    "arrivalTime": "22:34:00",
+    "departureTime": "13:03:00"
+  },
+  {
+    "trainId": 1115,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 183.82,
+    "arrivalTime": "06:41:00",
+    "departureTime": "22:01:00"
+  },
+  {
+    "trainId": 1116,
+    "departureStationId": 1937,
+    "arrivalStationId": 1902,
+    "price": 183.84,
+    "arrivalTime": "20:09:00",
+    "departureTime": "11:36:00"
+  },
+  {
+    "trainId": 1119,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 171.82,
+    "arrivalTime": "02:03:00",
+    "departureTime": "17:30:00"
+  },
+  {
+    "trainId": 1120,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 171.82,
+    "arrivalTime": "02:03:00",
+    "departureTime": "17:30:00"
+  },
+  {
+    "trainId": 1121,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 171.82,
+    "arrivalTime": "02:03:00",
+    "departureTime": "17:30:00"
+  },
+  {
+    "trainId": 1125,
+    "departureStationId": 1921,
+    "arrivalStationId": 1902,
+    "price": 115.84,
+    "arrivalTime": "03:44:00",
+    "departureTime": "18:51:00"
+  },
+  {
+    "trainId": 1125,
+    "departureStationId": 1921,
+    "arrivalStationId": 1981,
+    "price": 192.03,
+    "arrivalTime": "13:25:00",
+    "departureTime": "18:51:00"
+  },
+  {
+    "trainId": 1126,
+    "departureStationId": 1981,
+    "arrivalStationId": 1902,
+    "price": 192.87,
+    "arrivalTime": "02:42:00",
+    "departureTime": "17:36:00"
+  },
+  {
+    "trainId": 1126,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 172.54,
+    "arrivalTime": "11:20:00",
+    "departureTime": "03:02:00"
+  },
+  {
+    "trainId": 1126,
+    "departureStationId": 1981,
+    "arrivalStationId": 1921,
+    "price": 314.35,
+    "arrivalTime": "11:20:00",
+    "departureTime": "17:36:00"
+  },
+  {
+    "trainId": 1137,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 131.34,
+    "arrivalTime": "19:53:00",
+    "departureTime": "08:21:00"
+  },
+  {
+    "trainId": 1138,
+    "departureStationId": 1937,
+    "arrivalStationId": 1902,
+    "price": 171.74,
+    "arrivalTime": "07:03:00",
+    "departureTime": "19:11:00"
+  },
+  {
+    "trainId": 1139,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 114.11,
+    "arrivalTime": "00:03:00",
+    "departureTime": "14:32:00"
+  },
+  {
+    "trainId": 1140,
+    "departureStationId": 1921,
+    "arrivalStationId": 1902,
+    "price": 114.12,
+    "arrivalTime": "09:39:00",
+    "departureTime": "00:15:00"
+  },
+  {
+    "trainId": 1141,
+    "departureStationId": 1902,
+    "arrivalStationId": 1929,
+    "price": 176.77,
+    "arrivalTime": "12:15:00",
+    "departureTime": "16:48:00"
+  },
+  {
+    "trainId": 1142,
+    "departureStationId": 1902,
+    "arrivalStationId": 1929,
+    "price": 176.77,
+    "arrivalTime": "12:15:00",
+    "departureTime": "16:48:00"
+  },
+  {
+    "trainId": 1143,
+    "departureStationId": 1929,
+    "arrivalStationId": 1902,
+    "price": 176.78,
+    "arrivalTime": "13:38:00",
+    "departureTime": "19:47:00"
+  },
+  {
+    "trainId": 1144,
+    "departureStationId": 1929,
+    "arrivalStationId": 1902,
+    "price": 176.78,
+    "arrivalTime": "13:38:00",
+    "departureTime": "19:47:00"
+  },
+  {
+    "trainId": 1145,
+    "departureStationId": 1929,
+    "arrivalStationId": 1902,
+    "price": 176.78,
+    "arrivalTime": "13:38:00",
+    "departureTime": "19:47:00"
+  },
+  {
+    "trainId": 1146,
+    "departureStationId": 1929,
+    "arrivalStationId": 1937,
+    "price": 134.11,
+    "arrivalTime": "22:07:00",
+    "departureTime": "11:35:00"
+  },
+  {
+    "trainId": 1147,
+    "departureStationId": 1929,
+    "arrivalStationId": 1937,
+    "price": 134.11,
+    "arrivalTime": "22:07:00",
+    "departureTime": "11:35:00"
+  },
+  {
+    "trainId": 1148,
+    "departureStationId": 1937,
+    "arrivalStationId": 1929,
+    "price": 134.11,
+    "arrivalTime": "09:40:00",
+    "departureTime": "23:04:00"
+  },
+  {
+    "trainId": 1149,
+    "departureStationId": 1937,
+    "arrivalStationId": 1929,
+    "price": 134.11,
+    "arrivalTime": "09:40:00",
+    "departureTime": "23:04:00"
+  },
+  {
+    "trainId": 1155,
+    "departureStationId": 1937,
+    "arrivalStationId": 1981,
+    "price": 140.51,
+    "arrivalTime": "03:30:00",
+    "departureTime": "15:49:00"
+  },
+  {
+    "trainId": 1156,
+    "departureStationId": 1981,
+    "arrivalStationId": 1937,
+    "price": 140.98,
+    "arrivalTime": "09:21:00",
+    "departureTime": "21:31:00"
+  },
+  {
+    "trainId": 1162,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 173.83,
+    "arrivalTime": "17:28:00",
+    "departureTime": "07:55:00"
+  },
+  {
+    "trainId": 1163,
+    "departureStationId": 1902,
+    "arrivalStationId": 1981,
+    "price": 131.84,
+    "arrivalTime": "04:37:00",
+    "departureTime": "15:52:00"
+  },
+  {
+    "trainId": 1167,
+    "departureStationId": 1981,
+    "arrivalStationId": 1902,
+    "price": 132.29,
+    "arrivalTime": "10:35:00",
+    "departureTime": "21:45:00"
+  },
+  {
+    "trainId": 1169,
+    "departureStationId": 1981,
+    "arrivalStationId": 1902,
+    "price": 180.58,
+    "arrivalTime": "06:12:00",
+    "departureTime": "20:00:00"
+  },
+  {
+    "trainId": 1170,
+    "departureStationId": 1902,
+    "arrivalStationId": 1981,
+    "price": 179.94,
+    "arrivalTime": "06:42:00",
+    "departureTime": "21:00:00"
+  },
+  {
+    "trainId": 1171,
+    "departureStationId": 1909,
+    "arrivalStationId": 1921,
+    "price": 1407.37,
+    "arrivalTime": "12:17:00",
+    "departureTime": "15:47:00"
+  },
+  {
+    "trainId": 1172,
+    "departureStationId": 1909,
+    "arrivalStationId": 1921,
+    "price": 1407.37,
+    "arrivalTime": "12:17:00",
+    "departureTime": "15:47:00"
+  },
+  {
+    "trainId": 1177,
+    "departureStationId": 1902,
+    "arrivalStationId": 1929,
+    "price": 164.65,
+    "arrivalTime": "10:25:00",
+    "departureTime": "16:36:00"
+  },
+  {
+    "trainId": 1178,
+    "departureStationId": 1902,
+    "arrivalStationId": 1929,
+    "price": 164.65,
+    "arrivalTime": "10:25:00",
+    "departureTime": "16:36:00"
+  },
+  {
+    "trainId": 1179,
+    "departureStationId": 1929,
+    "arrivalStationId": 1902,
+    "price": 164.67,
+    "arrivalTime": "13:12:00",
+    "departureTime": "19:55:00"
+  },
+  {
+    "trainId": 1180,
+    "departureStationId": 1929,
+    "arrivalStationId": 1902,
+    "price": 164.67,
+    "arrivalTime": "13:12:00",
+    "departureTime": "19:55:00"
+  },
+  {
+    "trainId": 1181,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 131.34,
+    "arrivalTime": "04:50:00",
+    "departureTime": "15:52:00"
+  },
+  {
+    "trainId": 1182,
+    "departureStationId": 1937,
+    "arrivalStationId": 1902,
+    "price": 131.36,
+    "arrivalTime": "10:36:00",
+    "departureTime": "21:36:00"
+  },
+  {
+    "trainId": 1190,
+    "departureStationId": 1921,
+    "arrivalStationId": 1902,
+    "price": 245.02,
+    "arrivalTime": "23:21:00",
+    "departureTime": "18:43:00"
+  },
+  {
+    "trainId": 1191,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 245.00,
+    "arrivalTime": "10:56:00",
+    "departureTime": "06:20:00"
+  },
+  {
+    "trainId": 1197,
+    "departureStationId": 1921,
+    "arrivalStationId": 1902,
+    "price": 245.02,
+    "arrivalTime": "11:37:00",
+    "departureTime": "06:56:00"
+  },
+  {
+    "trainId": 1198,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 245.00,
+    "arrivalTime": "18:11:00",
+    "departureTime": "13:37:00"
+  },
+  {
+    "trainId": 1209,
+    "departureStationId": 1902,
+    "arrivalStationId": 1981,
+    "price": 273.19,
+    "arrivalTime": "22:20:00",
+    "departureTime": "17:26:00"
+  },
+  {
+    "trainId": 1212,
+    "departureStationId": 1981,
+    "arrivalStationId": 1902,
+    "price": 274.51,
+    "arrivalTime": "10:45:00",
+    "departureTime": "05:50:00"
+  },
+  {
+    "trainId": 1225,
+    "departureStationId": 1921,
+    "arrivalStationId": 1929,
+    "price": 270.29,
+    "arrivalTime": "13:52:00",
+    "departureTime": "07:00:00"
+  },
+  {
+    "trainId": 1226,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 270.29,
+    "arrivalTime": "22:13:00",
+    "departureTime": "15:18:00"
+  },
+  {
+    "trainId": 1245,
+    "departureStationId": 1902,
+    "arrivalStationId": 1929,
+    "price": 225.49,
+    "arrivalTime": "12:15:00",
+    "departureTime": "16:48:00"
+  },
+  {
+    "trainId": 1246,
+    "departureStationId": 1929,
+    "arrivalStationId": 1902,
+    "price": 247.29,
+    "arrivalTime": "13:38:00",
+    "departureTime": "19:47:00"
+  },
+  {
+    "trainId": 1249,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 199.15,
+    "arrivalTime": "01:09:00",
+    "departureTime": "16:05:00"
+  },
+  {
+    "trainId": 1262,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 199.15,
+    "arrivalTime": "08:53:00",
+    "departureTime": "23:30:00"
+  },
+  {
+    "trainId": 1287,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 199.15,
+    "arrivalTime": "08:53:00",
+    "departureTime": "23:30:00"
+  },
+  {
+    "trainId": 1288,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 199.15,
+    "arrivalTime": "08:53:00",
+    "departureTime": "23:30:00"
+  },
+  {
+    "trainId": 1298,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 199.15,
+    "arrivalTime": "18:00:00",
+    "departureTime": "09:00:00"
+  },
+  {
+    "trainId": 1311,
+    "departureStationId": 1981,
+    "arrivalStationId": 1937,
+    "price": 192.33,
+    "arrivalTime": "07:08:00",
+    "departureTime": "19:06:00"
+  },
+  {
+    "trainId": 1312,
+    "departureStationId": 1937,
+    "arrivalStationId": 1981,
+    "price": 175.02,
+    "arrivalTime": "10:01:00",
+    "departureTime": "22:17:00"
+  },
+  {
+    "trainId": 1315,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 206.43,
+    "arrivalTime": "14:24:00",
+    "departureTime": "04:55:00"
+  },
+  {
+    "trainId": 1316,
+    "departureStationId": 1902,
+    "arrivalStationId": 1929,
+    "price": 209.73,
+    "arrivalTime": "05:55:00",
+    "departureTime": "13:52:00"
+  },
+  {
+    "trainId": 1317,
+    "departureStationId": 1929,
+    "arrivalStationId": 1902,
+    "price": 229.77,
+    "arrivalTime": "03:59:00",
+    "departureTime": "12:05:00"
+  },
+  {
+    "trainId": 1323,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 206.43,
+    "arrivalTime": "06:32:00",
+    "departureTime": "21:07:00"
+  },
+  {
+    "trainId": 1328,
+    "departureStationId": 1902,
+    "arrivalStationId": 1929,
+    "price": 209.73,
+    "arrivalTime": "09:05:00",
+    "departureTime": "17:00:00"
+  },
+  {
+    "trainId": 1329,
+    "departureStationId": 1929,
+    "arrivalStationId": 1902,
+    "price": 209.74,
+    "arrivalTime": "09:30:00",
+    "departureTime": "16:25:00"
+  },
+  {
+    "trainId": 1331,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 206.43,
+    "arrivalTime": "05:38:00",
+    "departureTime": "19:30:00"
+  },
+  {
+    "trainId": 1342,
+    "departureStationId": 1921,
+    "arrivalStationId": 1909,
+    "price": 1421.12,
+    "arrivalTime": "13:44:00",
+    "departureTime": "13:52:00"
+  },
+  {
+    "trainId": 1349,
+    "departureStationId": 1981,
+    "arrivalStationId": 1929,
+    "price": 284.84,
+    "arrivalTime": "14:35:00",
+    "departureTime": "13:57:00"
+  },
+  {
+    "trainId": 1350,
+    "departureStationId": 1929,
+    "arrivalStationId": 1981,
+    "price": 312.42,
+    "arrivalTime": "18:41:00",
+    "departureTime": "17:40:00"
+  },
+  {
+    "trainId": 1351,
+    "departureStationId": 1929,
+    "arrivalStationId": 1981,
+    "price": 312.42,
+    "arrivalTime": "18:41:00",
+    "departureTime": "17:40:00"
+  },
+  {
+    "trainId": 1353,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 214.08,
+    "arrivalTime": "20:19:00",
+    "departureTime": "09:55:00"
+  },
+  {
+    "trainId": 1357,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 206.43,
+    "arrivalTime": "05:52:00",
+    "departureTime": "20:25:00"
+  },
+  {
+    "trainId": 1362,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 214.08,
+    "arrivalTime": "12:17:00",
+    "departureTime": "01:40:00"
+  },
+  {
+    "trainId": 1363,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 214.08,
+    "arrivalTime": "12:17:00",
+    "departureTime": "01:40:00"
+  },
+  {
+    "trainId": 1365,
+    "departureStationId": 1909,
+    "arrivalStationId": 1929,
+    "price": 1790.87,
+    "arrivalTime": "15:50:00",
+    "departureTime": "02:40:00"
+  },
+  {
+    "trainId": 1366,
+    "departureStationId": 1909,
+    "arrivalStationId": 1929,
+    "price": 1790.87,
+    "arrivalTime": "15:50:00",
+    "departureTime": "02:40:00"
+  },
+  {
+    "trainId": 1367,
+    "departureStationId": 1921,
+    "arrivalStationId": 1909,
+    "price": 1421.12,
+    "arrivalTime": "11:21:00",
+    "departureTime": "11:11:00"
+  },
+  {
+    "trainId": 1367,
+    "departureStationId": 1929,
+    "arrivalStationId": 1909,
+    "price": 1790.87,
+    "arrivalTime": "11:21:00",
+    "departureTime": "00:30:00"
+  },
+  {
+    "trainId": 1367,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 199.15,
+    "arrivalTime": "10:38:00",
+    "departureTime": "00:30:00"
+  },
+  {
+    "trainId": 1369,
+    "departureStationId": 1921,
+    "arrivalStationId": 1909,
+    "price": 1421.12,
+    "arrivalTime": "05:35:00",
+    "departureTime": "07:30:00"
+  },
+  {
+    "trainId": 1370,
+    "departureStationId": 1921,
+    "arrivalStationId": 1909,
+    "price": 1421.12,
+    "arrivalTime": "05:35:00",
+    "departureTime": "07:30:00"
+  },
+  {
+    "trainId": 1371,
+    "departureStationId": 1921,
+    "arrivalStationId": 1909,
+    "price": 1421.12,
+    "arrivalTime": "05:35:00",
+    "departureTime": "07:30:00"
+  },
+  {
+    "trainId": 1382,
+    "departureStationId": 1902,
+    "arrivalStationId": 1929,
+    "price": 225.49,
+    "arrivalTime": "14:45:00",
+    "departureTime": "21:50:00"
+  },
+  {
+    "trainId": 1383,
+    "departureStationId": 1929,
+    "arrivalStationId": 1902,
+    "price": 225.50,
+    "arrivalTime": "12:06:00",
+    "departureTime": "19:00:00"
+  },
+  {
+    "trainId": 1386,
+    "departureStationId": 1902,
+    "arrivalStationId": 1929,
+    "price": 220.49,
+    "arrivalTime": "08:30:00",
+    "departureTime": "13:03:00"
+  },
+  {
+    "trainId": 1387,
+    "departureStationId": 1929,
+    "arrivalStationId": 1902,
+    "price": 242.29,
+    "arrivalTime": "04:21:00",
+    "departureTime": "10:26:00"
+  },
+  {
+    "trainId": 1391,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 206.43,
+    "arrivalTime": "12:17:00",
+    "departureTime": "01:40:00"
+  },
+  {
+    "trainId": 1392,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 206.43,
+    "arrivalTime": "12:17:00",
+    "departureTime": "01:40:00"
+  },
+  {
+    "trainId": 1393,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 206.43,
+    "arrivalTime": "12:17:00",
+    "departureTime": "01:40:00"
+  },
+  {
+    "trainId": 1394,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 206.43,
+    "arrivalTime": "12:17:00",
+    "departureTime": "01:40:00"
+  },
+  {
+    "trainId": 1395,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 206.43,
+    "arrivalTime": "12:17:00",
+    "departureTime": "01:40:00"
+  },
+  {
+    "trainId": 1396,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 206.43,
+    "arrivalTime": "12:17:00",
+    "departureTime": "01:40:00"
+  },
+  {
+    "trainId": 1397,
+    "departureStationId": 1921,
+    "arrivalStationId": 1929,
+    "price": 162.13,
+    "arrivalTime": "02:30:00",
+    "departureTime": "16:57:00"
+  },
+  {
+    "trainId": 1398,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 162.13,
+    "arrivalTime": "21:01:00",
+    "departureTime": "11:05:00"
+  },
+  {
+    "trainId": 1405,
+    "departureStationId": 1981,
+    "arrivalStationId": 1929,
+    "price": 330.59,
+    "arrivalTime": "17:40:00",
+    "departureTime": "16:21:00"
+  },
+  {
+    "trainId": 1406,
+    "departureStationId": 1902,
+    "arrivalStationId": 1929,
+    "price": 194.36,
+    "arrivalTime": "13:32:00",
+    "departureTime": "23:01:00"
+  },
+  {
+    "trainId": 1407,
+    "departureStationId": 1902,
+    "arrivalStationId": 1929,
+    "price": 194.36,
+    "arrivalTime": "13:32:00",
+    "departureTime": "23:01:00"
+  },
+  {
+    "trainId": 1408,
+    "departureStationId": 1929,
+    "arrivalStationId": 1902,
+    "price": 194.37,
+    "arrivalTime": "11:08:00",
+    "departureTime": "20:17:00"
+  },
+  {
+    "trainId": 1412,
+    "departureStationId": 1937,
+    "arrivalStationId": 1929,
+    "price": 162.86,
+    "arrivalTime": "11:52:00",
+    "departureTime": "23:59:00"
+  },
+  {
+    "trainId": 1413,
+    "departureStationId": 1929,
+    "arrivalStationId": 1937,
+    "price": 162.86,
+    "arrivalTime": "04:40:00",
+    "departureTime": "16:45:00"
+  },
+  {
+    "trainId": 1470,
+    "departureStationId": 1929,
+    "arrivalStationId": 1921,
+    "price": 190.80,
+    "arrivalTime": "05:38:00",
+    "departureTime": "19:30:00"
+  },
+  {
+    "trainId": 1475,
+    "departureStationId": 1921,
+    "arrivalStationId": 1937,
+    "price": 238.22,
+    "arrivalTime": "09:39:00",
+    "departureTime": "16:00:00"
+  },
+  {
+    "trainId": 1492,
+    "departureStationId": 1937,
+    "arrivalStationId": 1921,
+    "price": 233.91,
+    "arrivalTime": "10:30:00",
+    "departureTime": "17:25:00"
+  },
+  {
+    "trainId": 1701,
+    "departureStationId": 1921,
+    "arrivalStationId": 1902,
+    "price": 181.00,
+    "arrivalTime": "09:00:00",
+    "departureTime": "00:15:00"
+  },
+  {
+    "trainId": 1702,
+    "departureStationId": 1921,
+    "arrivalStationId": 1902,
+    "price": 181.00,
+    "arrivalTime": "00:30:00",
+    "departureTime": "17:00:00"
+  },
+  {
+    "trainId": 1703,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 217.61,
+    "arrivalTime": "11:10:00",
+    "departureTime": "04:00:00"
+  },
+  {
+    "trainId": 1704,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 217.61,
+    "arrivalTime": "11:10:00",
+    "departureTime": "04:00:00"
+  },
+  {
+    "trainId": 1705,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 190.01,
+    "arrivalTime": "12:45:00",
+    "departureTime": "06:00:00"
+  },
+  {
+    "trainId": 1706,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 175.04,
+    "arrivalTime": "14:05:00",
+    "departureTime": "06:10:00"
+  },
+  {
+    "trainId": 1707,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 190.01,
+    "arrivalTime": "13:45:00",
+    "departureTime": "07:00:00"
+  },
+  {
+    "trainId": 1708,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 195.00,
+    "arrivalTime": "14:35:00",
+    "departureTime": "07:30:00"
+  },
+  {
+    "trainId": 1709,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 270.00,
+    "arrivalTime": "14:50:00",
+    "departureTime": "08:05:00"
+  },
+  {
+    "trainId": 1710,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 199.29,
+    "arrivalTime": "15:20:00",
+    "departureTime": "08:45:00"
+  },
+  {
+    "trainId": 1711,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 190.01,
+    "arrivalTime": "15:45:00",
+    "departureTime": "09:00:00"
+  },
+  {
+    "trainId": 1712,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 181.78,
+    "arrivalTime": "17:25:00",
+    "departureTime": "09:25:00"
+  },
+  {
+    "trainId": 1713,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 199.99,
+    "arrivalTime": "17:50:00",
+    "departureTime": "10:15:00"
+  },
+  {
+    "trainId": 1714,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 217.61,
+    "arrivalTime": "17:00:00",
+    "departureTime": "10:15:00"
+  },
+  {
+    "trainId": 1715,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 190.01,
+    "arrivalTime": "17:45:00",
+    "departureTime": "11:00:00"
+  },
+  {
+    "trainId": 1716,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 190.01,
+    "arrivalTime": "18:15:00",
+    "departureTime": "11:30:00"
+  },
+  {
+    "trainId": 1717,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 199.29,
+    "arrivalTime": "18:05:00",
+    "departureTime": "12:00:00"
+  },
+  {
+    "trainId": 1718,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 195.00,
+    "arrivalTime": "19:40:00",
+    "departureTime": "12:45:00"
+  },
+  {
+    "trainId": 1719,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 190.01,
+    "arrivalTime": "19:45:00",
+    "departureTime": "13:00:00"
+  },
+  {
+    "trainId": 1720,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 240.00,
+    "arrivalTime": "20:20:00",
+    "departureTime": "13:40:00"
+  },
+  {
+    "trainId": 1721,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 190.01,
+    "arrivalTime": "20:45:00",
+    "departureTime": "14:00:00"
+  },
+  {
+    "trainId": 1722,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 195.26,
+    "arrivalTime": "22:35:00",
+    "departureTime": "14:35:00"
+  },
+  {
+    "trainId": 1723,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 175.04,
+    "arrivalTime": "22:20:00",
+    "departureTime": "15:10:00"
+  },
+  {
+    "trainId": 1724,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 190.01,
+    "arrivalTime": "22:15:00",
+    "departureTime": "15:30:00"
+  },
+  {
+    "trainId": 1725,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 195.00,
+    "arrivalTime": "23:10:00",
+    "departureTime": "16:30:00"
+  },
+  {
+    "trainId": 1726,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 190.01,
+    "arrivalTime": "00:00:00",
+    "departureTime": "17:15:00"
+  },
+  {
+    "trainId": 1727,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 202.72,
+    "arrivalTime": "01:55:00",
+    "departureTime": "17:25:00"
+  },
+  {
+    "trainId": 1728,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 199.29,
+    "arrivalTime": "00:25:00",
+    "departureTime": "18:00:00"
+  },
+  {
+    "trainId": 1729,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 240.00,
+    "arrivalTime": "01:15:00",
+    "departureTime": "18:30:00"
+  },
+  {
+    "trainId": 1730,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 190.01,
+    "arrivalTime": "01:45:00",
+    "departureTime": "19:00:00"
+  },
+  {
+    "trainId": 1731,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 190.01,
+    "arrivalTime": "02:45:00",
+    "departureTime": "20:00:00"
+  },
+  {
+    "trainId": 1732,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 208.74,
+    "arrivalTime": "04:25:00",
+    "departureTime": "21:00:00"
+  },
+  {
+    "trainId": 1733,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 190.01,
+    "arrivalTime": "03:45:00",
+    "departureTime": "21:00:00"
+  },
+  {
+    "trainId": 1734,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 186.00,
+    "arrivalTime": "04:30:00",
+    "departureTime": "21:05:00"
+  },
+  {
+    "trainId": 1735,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 195.00,
+    "arrivalTime": "05:45:00",
+    "departureTime": "21:45:00"
+  },
+  {
+    "trainId": 1736,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 195.00,
+    "arrivalTime": "04:58:00",
+    "departureTime": "22:00:00"
+  },
+  {
+    "trainId": 1737,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 190.01,
+    "arrivalTime": "05:15:00",
+    "departureTime": "22:30:00"
+  },
+  {
+    "trainId": 1738,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 240.00,
+    "arrivalTime": "05:10:00",
+    "departureTime": "23:00:00"
+  },
+  {
+    "trainId": 1739,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 199.29,
+    "arrivalTime": "05:45:00",
+    "departureTime": "23:45:00"
+  },
+  {
+    "trainId": 1801,
+    "departureStationId": 1937,
+    "arrivalStationId": 1902,
+    "price": 236.00,
+    "arrivalTime": "07:25:00",
+    "departureTime": "00:35:00"
+  },
+  {
+    "trainId": 1802,
+    "departureStationId": 1937,
+    "arrivalStationId": 1902,
+    "price": 236.00,
+    "arrivalTime": "11:45:00",
+    "departureTime": "05:00:00"
+  },
+  {
+    "trainId": 1803,
+    "departureStationId": 1937,
+    "arrivalStationId": 1902,
+    "price": 236.00,
+    "arrivalTime": "20:00:00",
+    "departureTime": "13:50:00"
+  },
+  {
+    "trainId": 1804,
+    "departureStationId": 1937,
+    "arrivalStationId": 1902,
+    "price": 266.00,
+    "arrivalTime": "23:55:00",
+    "departureTime": "17:15:00"
+  },
+  {
+    "trainId": 1805,
+    "departureStationId": 1937,
+    "arrivalStationId": 1902,
+    "price": 196.00,
+    "arrivalTime": "04:35:00",
+    "departureTime": "21:15:00"
+  },
+  {
+    "trainId": 1806,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 185.00,
+    "arrivalTime": "14:40:00",
+    "departureTime": "07:20:00"
+  },
+  {
+    "trainId": 1807,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 185.00,
+    "arrivalTime": "15:30:00",
+    "departureTime": "08:00:00"
+  },
+  {
+    "trainId": 1808,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 188.66,
+    "arrivalTime": "18:00:00",
+    "departureTime": "10:05:00"
+  },
+  {
+    "trainId": 1809,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 185.00,
+    "arrivalTime": "18:35:00",
+    "departureTime": "11:00:00"
+  },
+  {
+    "trainId": 1810,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 185.00,
+    "arrivalTime": "19:40:00",
+    "departureTime": "12:00:00"
+  },
+  {
+    "trainId": 1811,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 188.52,
+    "arrivalTime": "22:00:00",
+    "departureTime": "13:30:00"
+  },
+  {
+    "trainId": 1812,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 161.35,
+    "arrivalTime": "21:35:00",
+    "departureTime": "14:25:00"
+  },
+  {
+    "trainId": 1813,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 185.00,
+    "arrivalTime": "22:45:00",
+    "departureTime": "15:15:00"
+  },
+  {
+    "trainId": 1814,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 190.01,
+    "arrivalTime": "23:50:00",
+    "departureTime": "15:40:00"
+  },
+  {
+    "trainId": 1815,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 185.00,
+    "arrivalTime": "00:25:00",
+    "departureTime": "17:00:00"
+  },
+  {
+    "trainId": 1816,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 161.35,
+    "arrivalTime": "01:50:00",
+    "departureTime": "18:00:00"
+  },
+  {
+    "trainId": 1817,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 234.99,
+    "arrivalTime": "02:30:00",
+    "departureTime": "19:30:00"
+  },
+  {
+    "trainId": 1818,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 185.00,
+    "arrivalTime": "05:45:00",
+    "departureTime": "22:15:00"
+  },
+  {
+    "trainId": 1819,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 185.00,
+    "arrivalTime": "06:10:00",
+    "departureTime": "22:45:00"
+  },
+  {
+    "trainId": 1820,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 181.64,
+    "arrivalTime": "07:50:00",
+    "departureTime": "23:35:00"
+  },
+  {
+    "trainId": 1821,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 185.00,
+    "arrivalTime": "07:20:00",
+    "departureTime": "23:50:00"
+  },
+  {
+    "trainId": 1901,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 234.99,
+    "arrivalTime": "02:30:00",
+    "departureTime": "19:30:00"
+  },
+  {
+    "trainId": 1902,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 185.00,
+    "arrivalTime": "07:20:00",
+    "departureTime": "23:50:00"
+  },
+  {
+    "trainId": 2001,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 139.98,
+    "arrivalTime": "20:10:00",
+    "departureTime": "12:30:00"
+  },
+  {
+    "trainId": 2002,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 181.78,
+    "arrivalTime": "04:35:00",
+    "departureTime": "20:20:00"
+  },
+  {
+    "trainId": 2003,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 165.01,
+    "arrivalTime": "04:35:00",
+    "departureTime": "20:20:00"
+  },
+  {
+    "trainId": 2101,
+    "departureStationId": 1937,
+    "arrivalStationId": 1902,
+    "price": 196.00,
+    "arrivalTime": "20:00:00",
+    "departureTime": "14:10:00"
+  },
+  {
+    "trainId": 2201,
+    "departureStationId": 1902,
+    "arrivalStationId": 1929,
+    "price": 280.00,
+    "arrivalTime": "06:15:00",
+    "departureTime": "14:55:00"
+  },
+  {
+    "trainId": 2202,
+    "departureStationId": 1902,
+    "arrivalStationId": 1929,
+    "price": 270.00,
+    "arrivalTime": "10:10:00",
+    "departureTime": "17:30:00"
+  },
+  {
+    "trainId": 2203,
+    "departureStationId": 1902,
+    "arrivalStationId": 1929,
+    "price": 319.76,
+    "arrivalTime": "13:15:00",
+    "departureTime": "17:55:00"
+  },
+  {
+    "trainId": 2301,
+    "departureStationId": 1937,
+    "arrivalStationId": 1902,
+    "price": 196.00,
+    "arrivalTime": "11:45:00",
+    "departureTime": "04:55:00"
+  },
+  {
+    "trainId": 2501,
+    "departureStationId": 1937,
+    "arrivalStationId": 1902,
+    "price": 236.00,
+    "arrivalTime": "07:40:00",
+    "departureTime": "00:50:00"
+  },
+  {
+    "trainId": 2701,
+    "departureStationId": 1902,
+    "arrivalStationId": 1929,
+    "price": 315.01,
+    "arrivalTime": "08:00:00",
+    "departureTime": "16:30:00"
+  },
+  {
+    "trainId": 2702,
+    "departureStationId": 1902,
+    "arrivalStationId": 1929,
+    "price": 315.01,
+    "arrivalTime": "08:00:00",
+    "departureTime": "16:30:00"
+  },
+  {
+    "trainId": 2703,
+    "departureStationId": 1902,
+    "arrivalStationId": 1929,
+    "price": 315.01,
+    "arrivalTime": "08:00:00",
+    "departureTime": "16:30:00"
+  },
+  {
+    "trainId": 2901,
+    "departureStationId": 1902,
+    "arrivalStationId": 1981,
+    "price": 191.68,
+    "arrivalTime": "03:25:00",
+    "departureTime": "16:20:00"
+  },
+  {
+    "trainId": 2902,
+    "departureStationId": 1902,
+    "arrivalStationId": 1981,
+    "price": 193.55,
+    "arrivalTime": "06:05:00",
+    "departureTime": "21:20:00"
+  },
+  {
+    "trainId": 2903,
+    "departureStationId": 1902,
+    "arrivalStationId": 1981,
+    "price": 195.00,
+    "arrivalTime": "06:40:00",
+    "departureTime": "22:05:00"
+  },
+  {
+    "trainId": 3001,
+    "departureStationId": 1902,
+    "arrivalStationId": 1981,
+    "price": 191.68,
+    "arrivalTime": "03:25:00",
+    "departureTime": "16:20:00"
+  },
+  {
+    "trainId": 3101,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 199.99,
+    "arrivalTime": "05:05:00",
+    "departureTime": "23:10:00"
+  },
+  {
+    "trainId": 3501,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 218.23,
+    "arrivalTime": "06:50:00",
+    "departureTime": "22:20:00"
+  },
+  {
+    "trainId": 4101,
+    "departureStationId": 1902,
+    "arrivalStationId": 1929,
+    "price": 280.00,
+    "arrivalTime": "06:15:00",
+    "departureTime": "14:55:00"
+  },
+  {
+    "trainId": 4201,
+    "departureStationId": 1929,
+    "arrivalStationId": 1902,
+    "price": 334.56,
+    "arrivalTime": "08:40:00",
+    "departureTime": "13:50:00"
+  },
+  {
+    "trainId": 4202,
+    "departureStationId": 1929,
+    "arrivalStationId": 1902,
+    "price": 277.50,
+    "arrivalTime": "06:35:00",
+    "departureTime": "15:15:00"
+  },
+  {
+    "trainId": 4203,
+    "departureStationId": 1929,
+    "arrivalStationId": 1902,
+    "price": 269.00,
+    "arrivalTime": "09:20:00",
+    "departureTime": "16:50:00"
+  },
+  {
+    "trainId": 4701,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 185.93,
+    "arrivalTime": "01:50:00",
+    "departureTime": "18:00:00"
+  },
+  {
+    "trainId": 5101,
+    "departureStationId": 1929,
+    "arrivalStationId": 1937,
+    "price": 189.21,
+    "arrivalTime": "22:30:00",
+    "departureTime": "12:25:00"
+  },
+  {
+    "trainId": 5102,
+    "departureStationId": 1929,
+    "arrivalStationId": 1937,
+    "price": 209.64,
+    "arrivalTime": "04:15:00",
+    "departureTime": "18:00:00"
+  },
+  {
+    "trainId": 5103,
+    "departureStationId": 1929,
+    "arrivalStationId": 1937,
+    "price": 243.68,
+    "arrivalTime": "08:15:00",
+    "departureTime": "21:20:00"
+  },
+  {
+    "trainId": 5201,
+    "departureStationId": 1929,
+    "arrivalStationId": 1937,
+    "price": 189.21,
+    "arrivalTime": "22:30:00",
+    "departureTime": "12:25:00"
+  },
+  {
+    "trainId": 5202,
+    "departureStationId": 1929,
+    "arrivalStationId": 1937,
+    "price": 189.21,
+    "arrivalTime": "04:15:00",
+    "departureTime": "18:00:00"
+  },
+  {
+    "trainId": 6001,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 177.78,
+    "arrivalTime": "04:35:00",
+    "departureTime": "20:20:00"
+  },
+  {
+    "trainId": 6002,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 184.52,
+    "arrivalTime": "05:10:00",
+    "departureTime": "22:10:00"
+  },
+  {
+    "trainId": 6901,
+    "departureStationId": 1902,
+    "arrivalStationId": 1981,
+    "price": 232.55,
+    "arrivalTime": "17:20:00",
+    "departureTime": "07:10:00"
+  },
+  {
+    "trainId": 7001,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 195.00,
+    "arrivalTime": "14:29:00",
+    "departureTime": "07:30:00"
+  },
+  {
+    "trainId": 7002,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 195.00,
+    "arrivalTime": "19:34:00",
+    "departureTime": "12:45:00"
+  },
+  {
+    "trainId": 7003,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 195.00,
+    "arrivalTime": "22:59:00",
+    "departureTime": "16:30:00"
+  },
+  {
+    "trainId": 7004,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 195.00,
+    "arrivalTime": "04:44:00",
+    "departureTime": "22:00:00"
+  },
+  {
+    "trainId": 7501,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 204.38,
+    "arrivalTime": "05:20:00",
+    "departureTime": "21:10:00"
+  },
+  {
+    "trainId": 7901,
+    "departureStationId": 1902,
+    "arrivalStationId": 1981,
+    "price": 193.55,
+    "arrivalTime": "06:25:00",
+    "departureTime": "21:40:00"
+  },
+  {
+    "trainId": 8101,
+    "departureStationId": 1902,
+    "arrivalStationId": 1981,
+    "price": 193.55,
+    "arrivalTime": "05:45:00",
+    "departureTime": "21:00:00"
+  },
+  {
+    "trainId": 8501,
+    "departureStationId": 1902,
+    "arrivalStationId": 1937,
+    "price": 195.00,
+    "arrivalTime": "05:50:00",
+    "departureTime": "21:50:00"
+  },
+  {
+    "trainId": 8701,
+    "departureStationId": 1902,
+    "arrivalStationId": 1981,
+    "price": 193.55,
+    "arrivalTime": "05:55:00",
+    "departureTime": "21:10:00"
+  },
+  {
+    "trainId": 9101,
+    "departureStationId": 1902,
+    "arrivalStationId": 1921,
+    "price": 160.56,
+    "arrivalTime": "05:15:00",
+    "departureTime": "20:50:00"
+  },
+  {
+    "trainId": 8801,
+    "departureStationId": 1902,
+    "arrivalStationId": 1981,
+    "price": 193.40,
+    "arrivalTime": "06:35:00",
+    "departureTime": "19:30:00"
+  },
+  {
+    "trainId": 8901,
+    "departureStationId": 1937,
+    "arrivalStationId": 1902,
+    "price": 236.00,
+    "arrivalTime": "21:35:00",
+    "departureTime": "15:25:00"
+  }
+]
