@@ -102,15 +102,15 @@ func FindTrains(depStation, arrStation, criteria string) (Trains, error) {
 
 	switch strings.ToLower(criteria) {
 	case "price":
-		sort.Slice(requiredTrains, func(i, j int) bool {
+		sort.SliceStable(requiredTrains, func(i, j int) bool {
 			return requiredTrains[i].Price < requiredTrains[j].Price
 		})
 	case "arrival-time":
-		sort.Slice(requiredTrains, func(i, j int) bool {
+		sort.SliceStable(requiredTrains, func(i, j int) bool {
 			return requiredTrains[i].ArrivalTime.Before(requiredTrains[j].ArrivalTime)
 		})
 	case "departure-time":
-		sort.Slice(requiredTrains, func(i, j int) bool {
+		sort.SliceStable(requiredTrains, func(i, j int) bool {
 			return requiredTrains[i].ArrivalTime.Before(requiredTrains[j].ArrivalTime)
 		})
 	default:
