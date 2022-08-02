@@ -111,7 +111,7 @@ func FindTrains(depStation, arrStation, criteria string) (Trains, error) {
 		})
 	case "departure-time":
 		sort.SliceStable(requiredTrains, func(i, j int) bool {
-			return requiredTrains[i].ArrivalTime.Before(requiredTrains[j].ArrivalTime)
+			return requiredTrains[i].DepartureTime.Before(requiredTrains[j].DepartureTime)
 		})
 	default:
 		return nil, unsupported
