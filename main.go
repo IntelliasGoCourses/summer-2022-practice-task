@@ -67,19 +67,18 @@ func FindTrains(departureStation, arrivalStation, criteria string) (Trains, erro
 
 	byteValue, _ := ioutil.ReadAll(jsonFile)
 	json.Unmarshal([]byte(byteValue), &trains)
-
 	if departureStation == emptyValue {
 		return nil, emptyDepartureStation
 	}
 	departureStationInt, err := strconv.Atoi(departureStation)
-	if err != nil || departureStationInt < 0 {
+	if len(departureStation) < 3 {
 		return nil, badDepartureStationInput
 	}
 	if arrivalStation == emptyValue {
 		return nil, emptyArrivalStation
 	}
 	arrivalStationInt, err := strconv.Atoi(arrivalStation)
-	if err != nil || arrivalStationInt < 0 {
+	if len(arrivalStation) < 3 {
 		return nil, badArrivalStationInput
 	}
 
@@ -105,7 +104,7 @@ func FindTrains(departureStation, arrivalStation, criteria string) (Trains, erro
 			return trains[i].DepartureTime.Before(trains[j].DepartureTime)
 		})
 	default:
-		return nil, err
+		return nil, unsuportedCriteria
 	}
 	if len(trains) > 3 {
 		return trains[:3], nil
@@ -168,19 +167,19 @@ func (t *Train) UnmarshalJSON(jso []byte) error {
 		}
 
 		if k == "arrivalTime" {
-			time, err := time.Parse("15:04:05", v.(string))
+			clock, err := time.Parse("15:04:05", v.(string))
 			if err != nil {
 				return err
 			}
-			t.ArrivalTime = time
+			t.ArrivalTime = clock
 		}
 
 		if k == "departureTime" {
-			time, err := time.Parse("15:04:05", v.(string))
+			clock, err := time.Parse("15:04:05", v.(string))
 			if err != nil {
 				return err
 			}
-			t.DepartureTime = time
+			t.DepartureTime = clock
 		}
 	}
 	return nil
