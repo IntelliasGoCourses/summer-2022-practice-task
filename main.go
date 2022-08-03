@@ -100,21 +100,9 @@ func FindTrains(depStation, arrStation, criteria string) (Trains, error) {
 		}
 	}
 
-	switch strings.ToLower(criteria) {
-	case "price":
-		sort.SliceStable(requiredTrains, func(i, j int) bool {
-			return requiredTrains[i].Price < requiredTrains[j].Price
-		})
-	case "arrival-time":
-		sort.SliceStable(requiredTrains, func(i, j int) bool {
-			return requiredTrains[i].ArrivalTime.Before(requiredTrains[j].ArrivalTime)
-		})
-	case "departure-time":
-		sort.SliceStable(requiredTrains, func(i, j int) bool {
-			return requiredTrains[i].DepartureTime.Before(requiredTrains[j].DepartureTime)
-		})
-	default:
-		return nil, unsupported
+	err = sortTrains(requiredTrains, criteria)
+	if err != nil {
+		return nil, err
 	}
 
 	if len(requiredTrains) > 3 {
@@ -122,6 +110,27 @@ func FindTrains(depStation, arrStation, criteria string) (Trains, error) {
 	}
 
 	return requiredTrains, nil
+}
+
+func sortTrains(t Trains, criteria string) error {
+
+	switch strings.ToLower(criteria) {
+	case "price":
+		sort.SliceStable(t, func(i, j int) bool {
+			return t[i].Price < t[j].Price
+		})
+	case "arrival-time":
+		sort.SliceStable(t, func(i, j int) bool {
+			return t[i].ArrivalTime.Before(t[j].ArrivalTime)
+		})
+	case "departure-time":
+		sort.SliceStable(t, func(i, j int) bool {
+			return t[i].DepartureTime.Before(t[j].DepartureTime)
+		})
+	default:
+		return unsupported
+	}
+	return nil
 }
 
 func inputParams() (depStation, arrStation, criteria string) {
