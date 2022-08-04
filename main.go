@@ -62,7 +62,6 @@ func FindTrains(departureStation, arrivalStation, criteria string) (Trains, erro
 	if err != nil {
 		fmt.Println(err)
 	}
-
 	byteValue, _ := ioutil.ReadAll(jsonFile)
 	json.Unmarshal([]byte(byteValue), &trains)
 
