@@ -63,22 +63,21 @@ func FindTrains(departureStation, arrivalStation, criteria string) (Trains, erro
 		fmt.Println(err)
 	}
 
-	defer jsonFile.Close()
-
 	byteValue, _ := ioutil.ReadAll(jsonFile)
 	json.Unmarshal([]byte(byteValue), &trains)
+
 	if departureStation == emptyValue {
 		return nil, emptyDepartureStation
 	}
 	departureStationInt, err := strconv.Atoi(departureStation)
-	if len(departureStation) <= 4 {
+	if len(departureStation) < 4 || len(departureStation) > 4 {
 		return nil, badDepartureStationInput
 	}
 	if arrivalStation == emptyValue {
 		return nil, emptyArrivalStation
 	}
 	arrivalStationInt, err := strconv.Atoi(arrivalStation)
-	if len(arrivalStation) <= 4 {
+	if len(arrivalStation) < 4 || len(arrivalStation) > 4 {
 		return nil, badArrivalStationInput
 	}
 
