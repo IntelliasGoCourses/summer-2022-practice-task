@@ -57,7 +57,7 @@ func main() {
 
 func FindTrains(departureStation, arrivalStation, criteria string) (Trains, error) {
 	// ... код
-	var trains Trains
+	var trains, neededTrains Trains
 	jsonFile, err := os.Open("data.json")
 	if err != nil {
 		fmt.Println(err)
@@ -70,20 +70,21 @@ func FindTrains(departureStation, arrivalStation, criteria string) (Trains, erro
 		return nil, emptyDepartureStation
 	}
 	departureStationInt, err := strconv.Atoi(departureStation)
-	if len(departureStation) < 4 || len(departureStation) > 4 {
+	if err != nil || departureStationInt < 1 {
 		return nil, badDepartureStationInput
 	}
+
 	if arrivalStation == emptyValue {
 		return nil, emptyArrivalStation
 	}
 	arrivalStationInt, err := strconv.Atoi(arrivalStation)
-	if len(arrivalStation) < 4 || len(arrivalStation) > 4 {
+	if err != nil || arrivalStationInt < 1 {
 		return nil, badArrivalStationInput
 	}
 
 	for _, t := range trains {
-		if t.DepartureStationID == departureStationInt || t.ArrivalStationID == arrivalStationInt {
-			trains = append(trains, t)
+		if t.DepartureStationID == departureStationInt && t.ArrivalStationID == arrivalStationInt {
+			neededTrains = append(neededTrains, t)
 		}
 	}
 	if criteria == emptyValue {
@@ -105,15 +106,11 @@ func FindTrains(departureStation, arrivalStation, criteria string) (Trains, erro
 	default:
 		return nil, unsuportedCriteria
 	}
-	if len(trains) > 3 {
-		return trains[:3], nil
+	if len(neededTrains) > 3 {
+		neededTrains = neededTrains[:3]
 	}
 
-	if len(trains) == 0 {
-		return nil, nil
-	}
-
-	return trains, nil
+	return neededTrains, nil
 }
 func InputValue() (departureStation, arrivalStation, criteria string, err error) {
 	fmt.Println("Greetings! Enter your data!")
