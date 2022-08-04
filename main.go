@@ -71,14 +71,14 @@ func FindTrains(departureStation, arrivalStation, criteria string) (Trains, erro
 		return nil, emptyDepartureStation
 	}
 	departureStationInt, err := strconv.Atoi(departureStation)
-	if len(departureStation) < 3 {
+	if len(departureStation) <= 4 {
 		return nil, badDepartureStationInput
 	}
 	if arrivalStation == emptyValue {
 		return nil, emptyArrivalStation
 	}
 	arrivalStationInt, err := strconv.Atoi(arrivalStation)
-	if len(arrivalStation) < 3 {
+	if len(arrivalStation) <= 4 {
 		return nil, badArrivalStationInput
 	}
 
