@@ -23,26 +23,26 @@ type Train struct {
 }
 
 var (
-	//помилки
+	//errors
 	unsupportedCriteria      = errors.New("unsupported criteria")
 	emptyDepartureStation    = errors.New("empty departure station")
 	emptyArrivalStation      = errors.New("empty arrival station")
 	badArrivalStationInput   = errors.New("bad arrival station input")
 	badDepartureStationInput = errors.New("bad departure station input")
-	//змінні для пошуку потягів. Int-й варіант введених користувачем даних
+	//variables for train search
 	neededDepartureId                          int
 	neededArrivalId                            int
 	departureStation, arrivalStation, criteria string
 )
 
 const (
-	maxNaturalNumber   = 1          //константа потрібна для валідації введених користувачем значень
-	resultLenghtNeeded = 3          //необхідна кількість потягів в результаті
-	layout             = "15:04:05" //Щоб описати формат значення часу, потрібний спеціальний параметр макета layout.
-	//Він повинен бути референтною датою/часом — Mon Jan 2 15:04:05 MST 2006, яка відформатована так як і очікувана дата/час
+	maxNaturalNumber   = 1          //the constant is required to validate user-entered values
+	resultLenghtNeeded = 3          //required number of trains as a result
+	layout             = "15:04:05" //A special layout parameter is required to describe the format of the time value.
+	//It must be a reference date/time — Mon Jan 2 15:04:05 MST 2006, which is formatted as the expected date/time
 )
 
-//Функція getContentFromJson зчитує файл і, у разі успіху, повертає слайс байтів з файлу
+//The getContentFromJson function reads a file and, if successful, returns a slice of bytes from the file
 func getContentFromJson(path string) ([]byte, error) {
 	file, err := os.Open(path)
 	if err != nil {
@@ -51,7 +51,7 @@ func getContentFromJson(path string) ([]byte, error) {
 	return ioutil.ReadAll(file)
 }
 
-//Функція ConvertStringToTime, у разі успіху, конвертує час з формату рядка в формат часу
+//The ConvertStringToTime function, if successful, converts the time from a string format to a time format
 func ConvertStringToTime(str string) (time.Time, error) {
 	convertedTime, err := time.Parse(layout, str)
 	if err != nil {
@@ -60,9 +60,9 @@ func ConvertStringToTime(str string) (time.Time, error) {
 	return convertedTime, nil
 }
 
-//перевизначаємо метод UnmarshalJSON таким чином, щоб він працював з нашими кастомними типами time.Time
+//override the UnmarshalJSON method to work with our custom time.Time types
 func (t *Train) UnmarshalJSON(content []byte) error {
-	//створюємо структуру з полями аналогічними з структурою Train, але без кастомних типів
+	//create a structure with fields similar to the Train structure, but without custom types
 	type structWithNormalTypes struct {
 		TrainID            int     `json:"trainId"`
 		DepartureStationID int     `json:"departureStationId"`
@@ -71,15 +71,15 @@ func (t *Train) UnmarshalJSON(content []byte) error {
 		ArrivalTime        string  `json:"arrivalTime"`
 		DepartureTime      string  `json:"departureTime"`
 	}
-	//виконуємо Unmarshal в структуру без кастомних типів
+	//perform Unmarshal into a structure without custom types
 	var tmp structWithNormalTypes
 	err := json.Unmarshal(content, &tmp)
 	if err != nil {
 		return err
 	}
-	//присвоюємо поля структури бех кастомних типів структурі Train (з кастомними типами)
-	//в момент присвоєння полю з типом time.Time застосовуємо до відповідного поля структури
-	//без кастомних типів функцію ConvertStringToTime
+	//assign the fields of the Beh structure of custom types to the Train structure (with custom types)
+	//at the moment of assigning a field with the time.Time type, we apply it to the corresponding field of the structure
+	//without custom types function ConvertStringToTime
 	t.TrainID = tmp.TrainID
 	t.DepartureStationID = tmp.DepartureStationID
 	t.ArrivalStationID = tmp.ArrivalStationID
@@ -95,8 +95,8 @@ func (t *Train) UnmarshalJSON(content []byte) error {
 	return nil
 }
 
-//Функція departureStationValidation перевіряє чи не було введено для станції відправлення пустого
-//рядка, чи це ціле число і чи воно є натуральним. Якщо виконується хоча б одна з умов повертає помилку
+//The departureStationValidation function checks whether an empty string was entered for the departure station,
+// whether it is an integer, and whether it is a natural number. If at least one of the conditions is met, it returns an error
 func departureStationValidation(departureStation string) error {
 	if len(departureStation) == 0 {
 		return emptyDepartureStation
@@ -112,8 +112,8 @@ func departureStationValidation(departureStation string) error {
 	return nil
 }
 
-//Функція arrivalStationValidation перевіряє чи не було введено для станції прибуття пустого
-//рядка, чи це ціле число і чи воно є натуральним. Якщо виконується хоча б одна з умов повертає помилку
+//The arrivalStationValidation function checks whether an empty string was entered for the arrival station,
+//whether it is an integer, and whether it is a natural number. If at least one of the conditions is met, it returns an error
 func arrivalStationValidation(arrivalStation string) error {
 	if arrivalStation == "" {
 		return emptyArrivalStation
@@ -129,9 +129,9 @@ func arrivalStationValidation(arrivalStation string) error {
 	return nil
 }
 
-//Функція criteriaValidation перевіряє валідність введеного критерія.
-//Створюємо мапу валідних критеріїв, де ключ це сам критерій. Значення по ключу використовуватися
-//не буде, тому використовуємо тип struct{} (для його зберігання використовується 0 байт)
+//The criteriaValidation function checks the validity of the entered criterion.
+//We create a map of valid criteria, where the key is the criterion itself. 
+//The key value will not be used, so we use the struct{} type (0 bytes are used for its storage)
 func criteriaValidation(criteria string) error {
 	validCriteria := map[string]struct{}{
 		"price":          {},
@@ -146,40 +146,40 @@ func criteriaValidation(criteria string) error {
 
 func main() {
 	result, err := FindTrains(departureStation, arrivalStation, criteria)
-	//	... обробка помилки
+	//	... error handling
 	if err != nil {
 		fmt.Println("ERROR: ", err)
 		return
 	}
 
-	//	... друк result
+	//	... print result
 	for _, train := range result {
 		formatResult(train)
 	}
 
 }
 
-//Функція FindTrains знаходить у файлі потяги, що задовольняють введені користувачем параметри і,
-//у разі успіху повертає не більше 3 варіантів відсортованих по введеному критерію.
-//Якщо ввід користувача валідний, але по даним параметрам немає потягів, то повертає nil,nil
+//The FindTrains function finds trains in the file that satisfy the parameters entered by the user
+//and,if successful, returns no more than 3 options sorted by the entered criteria.
+//If the user input is valid, but there are no trains for these parameters, then returns nil,nil
 func FindTrains(departureStation, arrivalStation, criteria string) (Trains, error) {
 	var err error
-	//Отримуємо дані
-	fmt.Println("Введіть номер станції відправлення.")
+	//Receiving data
+	fmt.Println("Enter the id of the departure station.")
 	fmt.Scanln(&departureStation)
 	err = departureStationValidation(departureStation)
 	if err != nil {
 		fmt.Println("ERROR: ", err)
 		return nil, err
 	}
-	fmt.Println("Введіть номер станції прибуття.")
+	fmt.Println("Enter the id of the arrival station.")
 	fmt.Scanln(&arrivalStation)
 	err = arrivalStationValidation(arrivalStation)
 	if err != nil {
 		fmt.Println("ERROR: ", err)
 		return nil, err
 	}
-	fmt.Println("Введіть критерій, по котрому треба відсортувати потяги в результаті. Валідні значення: price, arrival-time, departure-time")
+	fmt.Println("Enter the criteria by which the resulting trains should be sorted. Valid values: price, arrival-time, departure-time")
 	fmt.Scanln(&criteria)
 	err = criteriaValidation(criteria)
 	if err != nil {
@@ -187,20 +187,20 @@ func FindTrains(departureStation, arrivalStation, criteria string) (Trains, erro
 		return nil, err
 	}
 	var t []Train
-	//читаємо json
+	//read json
 	content, err := getContentFromJson("data.json")
 	if err != nil {
 		fmt.Println("open file error: " + err.Error())
 		return nil, nil
 	}
-	//виконуємо кастомний анмаршал
+	//perform a custom unmarshal
 	err = json.Unmarshal(content, &t)
 	if err != nil {
 		fmt.Println("ERROR: ", err.Error())
 		return nil, nil
 	}
 
-	//знаходимо всі потяги, що підходять по введеним користувачем станціям
+	//we find all trains matching the stations entered by the user
 	var foundedTrains Trains
 	for _, train := range t {
 		if train.DepartureStationID == neededDepartureId && train.ArrivalStationID == neededArrivalId {
@@ -208,10 +208,10 @@ func FindTrains(departureStation, arrivalStation, criteria string) (Trains, erro
 		}
 	}
 	foundedTrains.sortFoundedTrains(criteria)
-	//В залежності від кількості знайдених потягів повертаємо і різну їх кількість
+	//Depending on the number of found trains, we return different numbers of them
 	currentLenght := len(foundedTrains)
 	if currentLenght == 0 {
-		fmt.Println("Нічого не знайдено")
+		fmt.Println("Nothing found")
 		return nil, nil
 	}
 	if currentLenght < resultLenghtNeeded {
@@ -220,8 +220,8 @@ func FindTrains(departureStation, arrivalStation, criteria string) (Trains, erro
 	return foundedTrains[:resultLenghtNeeded], nil
 }
 
-//Метод sortFoundedTrains сортує потяги знайдені за введеними параметрами
-//щоб зберегти початковий порядок потягів використовується сортування sort.SliceStable
+//The sortFoundedTrains method sorts the trains found by the entered parameters
+//sort.SliceStable is used to preserve the original order of the trains
 func (t Trains) sortFoundedTrains(criteria string) {
 	switch criteria {
 	case "price":
@@ -239,7 +239,7 @@ func (t Trains) sortFoundedTrains(criteria string) {
 	}
 }
 
-//Функція formatResult форматує друк структури
+//The formatResult function formats the structure printout
 func formatResult(t Train) {
 	fmt.Printf(`Train ID: %v, Departure station ID: %v, Arrival station ID: %v, Price: %v, Departure time: %s, Arrival time: %s.%s`,
 		t.TrainID, t.DepartureStationID, t.ArrivalStationID, t.Price, t.DepartureTime.Format(layout), t.ArrivalTime.Format(layout),
