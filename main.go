@@ -102,7 +102,7 @@ func FindTrains(depStation, arrStation, criteria string) (Trains, error) {
 
 	err = sortTrains(requiredTrains, criteria)
 	if err != nil {
-		return nil, err
+		return nil, fmt.Errorf("some wrapping: %w", err)
 	}
 
 	if len(requiredTrains) > 3 {
